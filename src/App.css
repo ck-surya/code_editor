@@ -1,0 +1,57 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #e9ecef 0%, #f0f4fa 100%);
+  color: #222;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+
+th,
+td {
+  padding: 12px 15px;
+  border: 1px solid #e0e0e0;
+  background: #fff;
+}
+
+
+th {
+  background: #f7f9fa;
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+
+tr:hover {
+  background: #f0f4fa;
+}
+
+.contest-page {
+  padding: 24px 32px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  border: 1.5px solid #e0e0e0;
+  width: fit-content;
+  margin: 32px auto;
+}
